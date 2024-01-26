@@ -1,0 +1,11 @@
+---
+apiVersion : v1
+kind : Pod 
+metadata :
+  name : httpd-pod
+spec :
+  container :
+    - image : hhtpd:2.4
+           
+
+  
